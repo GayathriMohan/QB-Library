@@ -1,0 +1,11 @@
+a {
+    color: #000;
+    text-decoration: none;
+    display: inherit;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+}

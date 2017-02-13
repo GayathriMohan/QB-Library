@@ -1,4 +1,21 @@
 header {
-	height: 263px;
-    background-image: url('/assets/images/masthead-eng.jpg');
+    height: 280px;
+    background-image: url(/assets/images/masthead_books.jpg);
+    background-position: bottom;
+    background-repeat: repeat-x;
+}
+
+.content_width {
+    width: 1024px;
+    margin: 0 auto;
+    text-align: right;
+    padding: 28px;
+}
+
+.nav_ul {
+    width: 100%;
+}
+
+.nav_ul > li {
+    width: 20%;
 }
