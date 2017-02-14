@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'list-books',
-  templateUrl: './listbooks.html',
-  styleUrls: ['./listbooks.scss']
+  templateUrl: './list-books.component.html',
+  styleUrls: ['./list-books.component.scss']
 })
 export class ListBooks {
 }
