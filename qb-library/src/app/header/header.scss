@@ -3,6 +3,13 @@ header {
     background-image: url(/assets/images/masthead_books.jpg);
     background-position: bottom;
     background-repeat: repeat-x;
+    position: relative;
+    nav {
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 0;
+        width: 100%;
+    }
 }
 
 .content_width {
@@ -10,12 +17,4 @@ header {
     margin: 0 auto;
     text-align: right;
     padding: 28px;
-}
-
-.nav_ul {
-    width: 100%;
-}
-
-.nav_ul > li {
-    width: 20%;
 }
