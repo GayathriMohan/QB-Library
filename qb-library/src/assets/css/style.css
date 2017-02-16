@@ -1,5 +1,10 @@
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
 a {
-    color: #000;
+    color: #46344e;
     text-decoration: none;
     display: inherit;
     font-size: 12px;
@@ -8,4 +13,11 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.content_width {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: right;
+    padding: 28px;
 }

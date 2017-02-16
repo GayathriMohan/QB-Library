@@ -1,3 +1,10 @@
-// li {
-//     color: green;
-// }
+footer {
+    background-color: #e7e7e7;
+    ul {
+        float: right;
+        li>a {
+            background: none;
+            font-weight: 600;
+        }
+    }
+}
