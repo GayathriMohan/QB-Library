@@ -7,20 +7,21 @@ import { AppComponent } from './app.component';
 import { AppHeader } from './header/header.component';
 import { AppFooter } from './footer/footer.component';
 import { ListBooks } from './listbooks/list-books.component'; 
+import { BookDetails } from './bookdetails/book-details.component'; 
 import { RouterModule, Routes } from '@angular/router';
 
-
 const appRoutes: Routes = [
-  { path: 'list-books', component: ListBooks }
+  { path: 'list-books', component: ListBooks },
+  { path: 'book-details', component: BookDetails }
 ];
-
 
 @NgModule({
   declarations: [
     AppComponent,
     AppHeader,
     AppFooter,
-    ListBooks
+    ListBooks,
+    BookDetails
   ],
   imports: [
     BrowserModule,

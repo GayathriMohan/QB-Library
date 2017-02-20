@@ -1,0 +1,24 @@
+.book {
+  &.content_width {
+    text-align: left;
+  }
+  &__details{
+  	h1{
+  		font-size: 20px;
+  		margin-bottom: 10px;
+  		margin-top: 10px;
+  		font-weight: 600;
+  	}
+  	h2{
+  		font-size: 16px;
+  		@extend h1;
+  		span{
+  			color: #46344e;
+  		}
+  	}
+  }
+}
+
+.text-center {
+  text-align: center;
+}
