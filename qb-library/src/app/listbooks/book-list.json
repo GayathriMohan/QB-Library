@@ -1,0 +1,60 @@
+
+{
+   "bookList":
+    [
+      {
+          "id":"001",          
+           "book":"Think and Grow Rich",
+           "author":"Napolean Hill",
+           "bookCover":"/assets/images/think-grow-rich-bc.jpg",
+           "language":"English",
+           "pages":"210",
+           "description":"It was written in 1937 by Napoleon Hill, promoted as a personal development and self-improvement book."
+       },       
+       {
+           "id":"002",
+           "book":"7 habits of highly effective people",
+           "author":"Steven Covey",
+           "bookCover":"/assets/images/7-habits-bc.jpg",
+           "language":"English",
+           "pages":"210",
+           "description":"It was written in 1937 by Napoleon Hill, promoted as a personal development and self-improvement book."
+       },
+       {
+           "id":"003",
+           "book":"The Alchemist",
+           "author":"Paulo Coelho",
+           "bookCover":"/assets/images/alchemist-bc.jpg",
+           "language":"English",
+           "pages":"210",
+           "description":"It was written in 1937 by Napoleon Hill, promoted as a personal development and self-improvement book."
+       },
+       {
+           "id":"004",
+           "book":"The Monk Who Sold His Ferrari",
+           "author":"Robin Sharma",
+           "bookCover":"/assets/images/the-monk-bc.jpg",
+           "language":"English",
+           "pages":"210",
+           "description":"It was written in 1937 by Napoleon Hill, promoted as a personal development and self-improvement book."
+       },
+       {
+           "id":"005",
+           "book":"Rich Dad Poor Dad",
+           "author":"Robert T. Kiyosaki", 
+           "bookCover":"/assets/images/richdad-poordad-bc.jpg",
+           "language":"English",
+           "pages":"210",
+           "description":"It was written in 1937 by Napoleon Hill, promoted as a personal development and self-improvement book."
+       },
+       {
+           "id":"006",
+           "book":"Eat That Flog",
+           "author":"Brian Tracy",
+           "bookCover":"/assets/images/eat-that-flog-bc.jpg",
+           "language":"English",
+           "pages":"210",
+           "description":"It was written in 1937 by Napoleon Hill, promoted as a personal development and self-improvement book."           
+       }       
+  ]
+}
