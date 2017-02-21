@@ -1,0 +1,49 @@
+.book {
+  &.content_width {
+    text-align: left;
+  }
+  &__details {
+    h1 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      font-weight: 600;
+    }
+    h2 {
+      font-size: 14px;
+      @extend h1;
+      span {
+        color: #46344e;
+      }
+    }
+    dl {
+      margin-top: 30px;
+      dt,
+      dd {
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  &__avail {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    .btn-request,
+    .btn-return {
+      color: #330033;
+      margin-right: 15px;
+      border: 2px solid #330033;
+      font-weight: 600;
+      box-shadow: inset 0 0 0 0 #330033;
+      transition: all ease 1s;
+      &:hover {
+        color: #fff;
+        box-shadow: inset 0 100px 0 0 #330033;
+      }
+    }
+  }
+}
+
+.text-center {
+  text-align: center;
+}

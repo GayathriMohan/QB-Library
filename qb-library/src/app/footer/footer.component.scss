@@ -1,10 +1,19 @@
 footer {
-    background-color: #e7e7e7;
-    ul {
-        float: right;
-        li>a {
-            background: none;
-            font-weight: 600;
-        }
+  background-color: #e7e7e7;
+  ul {
+    float: right;
+    li>a {
+      background: none;
+      font-weight: 600;
     }
+  }
+  span {
+    float: left;
+    color: #46344e;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 5px;
+    font-size: 13px;
+    font-weight: 600;
+  }
 }
