@@ -2,8 +2,8 @@
 {
    "bookList":
     [
-      {
-          "id":"001",          
+      "001":{
+          // "id":"001",          
            "book":"Think and Grow Rich",
            "author":"Napolean Hill",
            "bookCover":"/assets/images/think-grow-rich-bc.jpg",
@@ -11,7 +11,7 @@
            "pages":"210",
            "description":"It was written in 1937 by Napoleon Hill, promoted as a personal development and self-improvement book."
        },       
-       {
+      "002": {
            "id":"002",
            "book":"7 habits of highly effective people",
            "author":"Steven Covey",
@@ -20,7 +20,7 @@
            "pages":"210",
            "description":"It was written in 1937 by Napoleon Hill, promoted as a personal development and self-improvement book."
        },
-       {
+      "003": {
            "id":"003",
            "book":"The Alchemist",
            "author":"Paulo Coelho",
@@ -29,7 +29,7 @@
            "pages":"210",
            "description":"It was written in 1937 by Napoleon Hill, promoted as a personal development and self-improvement book."
        },
-       {
+      "004": {
            "id":"004",
            "book":"The Monk Who Sold His Ferrari",
            "author":"Robin Sharma",
@@ -38,7 +38,7 @@
            "pages":"210",
            "description":"It was written in 1937 by Napoleon Hill, promoted as a personal development and self-improvement book."
        },
-       {
+       "005":{
            "id":"005",
            "book":"Rich Dad Poor Dad",
            "author":"Robert T. Kiyosaki", 
@@ -47,7 +47,7 @@
            "pages":"210",
            "description":"It was written in 1937 by Napoleon Hill, promoted as a personal development and self-improvement book."
        },
-       {
+      "006": {
            "id":"006",
            "book":"Eat That Flog",
            "author":"Brian Tracy",
