@@ -7,14 +7,14 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { AppHeader } from './header/header.component';
 import { AppFooter } from './footer/footer.component';
-import { ListBooks } from './listbooks/list-books.component'; 
-import { BookDetails } from './bookdetails/book-details.component'; 
+import { ListBooks } from './listbooks/list-books.component';
+import { BookDetails } from './bookdetails/book-details.component';
 
 
 const appRoutes: Routes = [
   { path: 'app-root', component: AppComponent},
-  { path: 'list-books', component: ListBooks },
-  { path: 'book-details', component: BookDetails }
+  { path: 'app-list-books', component: ListBooks },
+  { path: 'app-book-details', component: BookDetails }
 ];
 
 @NgModule({
@@ -32,6 +32,6 @@ const appRoutes: Routes = [
     RouterModule.forRoot(appRoutes)
   ],
   providers: [],
-  bootstrap: [AppComponent,AppHeader,AppFooter]
+  bootstrap: [AppComponent, AppHeader, AppFooter]
 })
 export class AppModule { }

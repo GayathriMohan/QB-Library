@@ -1,18 +1,15 @@
-import { Injectable }     from '@angular/core';
-import {Observable} from 'rxjs/Rx';
-import {Http} from '@angular/http';
+import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs/Rx';
+import { Http, Response } from '@angular/http';
+import 'rxjs/add/operator/map';
 
 
 @Injectable()
-export class BookService{
-	constructor(private http: Http) {
-	     var obj;
-	     this.getJSON().subscribe(data => obj=data, error => console.log(error));
-	}
-
-    public getJSON(): Observable<any> {
-         return this.http.get("./book-list.json")
-                         .map((res:any) => res.json())
-                         .map((error:any) => console.log(error));
-     }
+export class BookService {
+    constructor(private http: Http) { }
+    getBooks() {
+        return this.http.get('./listbooks/book-list.json')
+            .map((response: any) => response.json())
+            .map((error: any) => console.log(error));
+    }
 }
