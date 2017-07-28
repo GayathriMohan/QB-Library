@@ -1,0 +1,54 @@
+<app-header (loggedIn)="handleUserUpdated($event)"></app-header>
+<div id="add-book">
+  <div class="container">
+    <h1>Add A Book</h1>
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <form id="add-book" name="addBook" disable>
+          <div class="form-group">
+            <label>Book Name:</label>
+            <input type="text" [disabled]="isDisabled"/>
+          </div>
+          <div class="form-group">
+            <label>Author:</label>
+            <input type="text" [disabled]="isDisabled"/>
+          </div>
+          <div class="form-group">
+            <label>Category:</label>
+            <select [(ngModel)]="category" name="categories" [disabled]="isDisabled">
+              <option *ngFor="let obj of categories" [value]="obj">{{obj}}</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Language:</label>
+            <select [(ngModel)]="language" name="language" [disabled]="isDisabled">
+              <option *ngFor="let obj of languages" [value]="obj">{{obj}}</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Total Pages:</label>
+            <input type="text" [disabled]="isDisabled"/>
+          </div>
+          <div class="form-group">
+            <label>About The Book:</label>
+            <input type="text" [disabled]="isDisabled"/>
+          </div>
+          <div class="form-group">
+            <label>Owned By:</label>
+            <input type="text" [disabled]="isDisabled"/>
+          </div>
+          <div class="form-group">
+            <label>Book Cover:</label>
+            <input type="text" [disabled]="isDisabled"/>
+          </div>
+          <div class="form-group submit">
+            <button class="btn btn-default" type="submit">Add Book</button>
+          </div>
+        </form>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>

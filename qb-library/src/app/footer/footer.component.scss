@@ -1,0 +1,26 @@
+footer {
+  background-color: #e7e7e7;
+  float: left;
+  width: 100%;
+  margin: 50px 0 0;
+  ul {
+    float: right;
+    li>a {
+      background: none;
+      font-weight: 600;
+    }
+  }
+  span {
+    float: left;
+    color: #46344e;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 5px;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .content_width {
+    max-width: 1200px;
+    width: 100%;
+  }
+}

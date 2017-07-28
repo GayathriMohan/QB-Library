@@ -1,0 +1,16 @@
+<app-header></app-header>
+
+	<div id="books">
+	
+		<div class="col-md-2 list-container" *ngFor="let book of bookList" id="{{ book.id}}">
+			<img src="{{ book.bookCover}}" (click)="goToDetails(book.id)" /> <h2 class="author-display" style="display: block;width:auto;">{{ book.author }}</h2>
+		</div>		
+	
+	</div>
+<app-footer></app-footer>
+
+
+
+
+
+   

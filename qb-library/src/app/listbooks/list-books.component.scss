@@ -1,0 +1,27 @@
+.list-container {	
+	margin-bottom: 50px;
+	max-height: 300px;
+	display: inline-block;
+	min-height: 300px;
+	img {
+		width: 100%;
+	}
+}
+#books {
+	max-width: 1200px;
+    width: 100%;
+    margin: 30px auto;
+    float: none;
+    display: table;
+    text-align: center;
+	h2 {
+		display: block;
+		width:auto;
+		font-size: 15px;
+		font-weight: bold;
+		padding-top: 10px;
+		text-transform: uppercase;
+
+	}
+}
+

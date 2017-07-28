@@ -1,0 +1,51 @@
+header {
+    height: 280px;
+    background-image: url(/assets/images/masthead_books.jpg);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    position: relative;
+    .content_width {
+        text-align: right;
+        .btn {
+            color: #46344e;
+            font-weight: 500;
+        }
+    }
+    nav {
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 0;
+        width: 100%;
+        border: none;
+        border-radius: 0;
+        box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+        ul {
+            width: 100%;
+            li {
+                width: 20%;
+                a {
+                    font-size: 14px;
+                    font-weight: 600;
+                    color: #46344e;
+                    text-align: center;
+                    background: none;
+                }
+            }
+        }
+        .active {
+            background-color: #ccc;
+        }
+    }
+}
+.content_width {
+    margin: 0 auto;
+    text-align: right;
+    padding: 28px;
+    height: 100%;
+    width: 100%;
+    max-width: 1200px;
+    #logo {
+        float:left;
+    }
+}
+

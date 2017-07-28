@@ -1,0 +1,35 @@
+
+<app-header></app-header>
+<section class="content_width book">
+    <div class="row">
+        <div class="col-md-3 text-center">
+            <img src="{{bookDetails.bookCover}}">
+        </div>
+        <section class="col-md-7 book__details">
+            <h1>{{bookDetails.book}}</h1>
+            <h2>By <span>{{bookDetails.author}}</span></h2>
+            <dl>
+                <dt><span>Category:</span> {{bookDetails.category}}</dt>
+                <dd></dd>
+                <dt><span>Language:</span> {{bookDetails.language}}</dt>
+                <dd></dd>
+                <dt><span>Total Pages:</span> {{bookDetails.pages}}</dt>
+                <dd></dd>
+                <dt><span>Description:</span> {{bookDetails.description}}</dt>
+                <dd></dd>
+                <dt><span>Owned By:</span> {{bookDetails.ownedBy}}</dt>
+                <dd></dd>
+            </dl>
+        </section>
+        <section class="col-md-2 book__status">
+        </section>
+    </div>
+    <div class="row text-center book__avail">
+        <div class="col-md-12">
+            <button class="btn btn-default btn-request">Request Book</button>
+            <button class="btn btn-default btn-return">Return Book</button>
+        </div>
+    </div>
+</section>
+
+<app-footer></app-footer> 
